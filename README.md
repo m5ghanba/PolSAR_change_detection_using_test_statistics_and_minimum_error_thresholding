@@ -3,6 +3,8 @@ Several complex-PolSAR-data-based test statistics and thresholding algorithms fo
 
 Please refer to the paper Ghanbari, M., and Akbari, V., (2018, Published). “Unsupervised Change Detection in Polarimetric SAR Data With the Hotelling-Lawley Trace Statistic and Minimum-Error Thresholding”. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.
 
+For running the GUI for any data set, do the following:
+
 1. Create a .mat file including two co-registered multilook covariance data named "C1" and "C2", and a ground truth file named "GT". This file should have the name "TwoCoregisteredMultilookedCovarianceData.mat".
 
 2. In the file GT, the change and no-change areas should be labeled as 1 and 2, respectively.
